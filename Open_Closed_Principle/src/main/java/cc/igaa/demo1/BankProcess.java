@@ -6,15 +6,15 @@ package cc.igaa.demo1;
  */
 public class BankProcess {
     //存款
-    public void deposit(){
+    public void depositFunc(){
         System.out.println("存款");
     }
     //取款
-    public void drawMoney(){
+    public void drawMoneyFunc(){
         System.out.println("取款");
     }
     //转账
-    public void transfer(){
+    public void transferFunc(){
         System.out.println("转账");
     }
 }

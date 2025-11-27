@@ -8,13 +8,13 @@ public class BankStuff {
     public void handleProcess(BankUser bankUser) {
         switch (bankUser.getType()) {
             case "存款":
-                bankProcess.deposit();
+                bankProcess.depositFunc();
                 break;
             case "取款":
-                bankProcess.drawMoney();
+                bankProcess.drawMoneyFunc();
                 break;
             case "转账":
-                bankProcess.transfer();
+                bankProcess.transferFunc();
                 break;
             default:
                 System.out.println("不支持该操作");

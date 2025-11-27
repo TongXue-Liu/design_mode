@@ -9,8 +9,7 @@ public class App {
      *  对功能扩展开发
      *  面向修改代码封闭。
      * 3、
-     *  需求改变时不改变我们的代码，通过扩展就能对功能
-     *  进行实现。
+     *  需求改变时不改变我们的代码，通过扩展就能对功能进行实现。
      * @param args
      */
     public static void main(String[] args) {
@@ -31,8 +30,7 @@ public class App {
         bankUser.setType("转账");
         BankStuff bankStuff = new BankStuff();
         bankStuff.handleProcess(bankUser);
-        
-        
+
         /**
          * 基础知识
          *  开闭原则：针对扩展进行开发，修改封闭。
