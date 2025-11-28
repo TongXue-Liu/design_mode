@@ -22,16 +22,15 @@ public class App {
          *  对原有BankUser中具有变化的switch内容进行抽象。
          *
          *  封装、抽象不是目的，目的是封装变化。
-         *  只有把变化进行封装，我们的程序，才能够做到单一，才能做到开放封闭，
-         *  才能做高内聚(模块的单一性)、低耦合(模块之间的依赖程度)。
+         *      只有把变化进行封装，我们的程序，才能够做到单一，才能做到开放封闭，
+         *      才能做高内聚(模块的单一性)、低耦合(模块之间的依赖程度)。
          */
         //BankUser bankUser = new BankUser();
         //bankUser.setType("存款");
         //BankStuff bankStuff = new BankStuff();
         //bankStuff.handleProcess(bankUser);
         
-        
-        
+
         UserDepositServiceImpl userDepositService = new UserDepositServiceImpl();
         BankStuff bankStuff = new BankStuff();
         bankStuff.handleProcess(userDepositService);

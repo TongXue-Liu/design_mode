@@ -32,7 +32,8 @@ public class BankStuff {
     //            break;
     //    }
     //}
-    
+
+    //不同需求的用户办理不同的业务。
     public void handleProcess(IBankUserService iBankUserService){
         this.iBankProcessService = iBankUserService.bankProcess();
         this.iBankProcessService.BankProcess();
