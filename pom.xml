@@ -11,6 +11,7 @@
   <url>http://maven.apache.org</url>
   <modules>
     <module>Open_Closed_Principle</module>
+      <module>Dependence_Inversion_Princple</module>
   </modules>
 
   <properties>
